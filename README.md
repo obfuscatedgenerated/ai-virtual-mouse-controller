@@ -30,7 +30,6 @@ To setup the system for development on your local machine, please follow the ins
    or
    
    ```bash
-      ```bash
    pip3 install -r requirements.txt
    ```
 
