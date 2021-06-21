@@ -22,6 +22,18 @@ To setup the system for development on your local machine, please follow the ins
    git clone https://github.com/ravigithub19/ai-virtual-mouse-controller
    ```
 
-2. Run the ```AIVirtualMouse.py``` python file.
+2. Install the dependencies
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+   or
+   
+   ```bash
+      ```bash
+   pip3 install -r requirements.txt
+   ```
+
+3. Run the ```AIVirtualMouse.py``` python file.
    
 
