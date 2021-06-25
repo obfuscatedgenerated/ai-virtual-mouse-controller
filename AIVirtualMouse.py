@@ -10,6 +10,8 @@ frameR = 100     #Frame Reduction
 smoothening = 7  #random value
 ######################
 
+flip = -1 # set to 1 to mirror direction
+
 pTime = 0
 plocX, plocY = 0, 0
 clocX, clocY = 0, 0
@@ -50,7 +52,7 @@ while True:
             clocY = plocY + (y3 - plocY) / smoothening
 
             # Step7: Move Mouse
-            pyautogui.moveRel(wScr - clocX, clocY)
+            pyautogui.moveRel(flip*(wScr - clocX)/10, clocY/10)
             cv2.circle(img, (x1, y1), 15, (255, 0, 255), cv2.FILLED)
             plocX, plocY = clocX, clocY
 
