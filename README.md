@@ -10,7 +10,6 @@
 * mediapipe
 * pyautogui
 * numpy
-* pandas
 
 ## Installation
 
