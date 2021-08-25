@@ -1,15 +1,14 @@
-## AI Virtual Mouse Controller
+## AI Virtual Mouse
 
 ### THIS FORK USES PYAUTOGUI IN PLACE OF AUTOPY FOR MACHINES WITHOUT RUST INSTALLED
 
-> Developed an AI-based system to control the mouse cursor using Python and OpenCV with the real-time camera. Fingertip location is mapped to RGB images to control the mouse cursor.
+> Developed an AI-based approach for controlling the mouse movement using Python and openCV with real-time camera that detects hand landmarks, tracks gesture patterns instead of a physical mouse.
 
 ## Dependencies  -
 > Please install all the required dependencies.
-* openCV
-* mediapipe
-* pyautogui
-* numpy
+* openCV - (For image processing and drawing)
+* mediapipe - (For Hand Tracking)
+* pyautogui - (For controlling the mouse movement and click)
 
 ## Installation
 
